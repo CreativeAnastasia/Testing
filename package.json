@@ -1,0 +1,18 @@
+{
+  "name": "LegacyDelta",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "e2e-selenium": "\"selenium-standalone\" start && wdio wdio.conf.js",
+    "e2e": "wdio wdio.conf.js"
+  },
+  "dependencies": {
+    "wdio-chromedriver-service": "^0.1.0",
+    "wdio-selenium-standalone-service": "^0.0.9",
+    "webdriverio": "^4.7.1"
+  },
+  "devDependencies": {
+    "wdio-mocha-framework": "^0.5.11"
+  }
+}
